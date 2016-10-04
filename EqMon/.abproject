@@ -1,0 +1,45 @@
+{
+  "ProjectName": "EqMon",
+  "ProjectGuid": "0e93fc64-b557-4236-b7c6-e63e181bf30e",
+  "projectVersion": 1,
+  "AppIdentifier": "com.mwehrle.eqmon",
+  "DisplayName": "EqMon",
+  "Author": "",
+  "Description": "EqMon",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "4.0.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{13272443-3dd5-49f8-b541-7b14a0a95a20}",
+  "WP8ProductID": "{78f67668-f024-435c-b965-6065af2504a1}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234mwehrle.eqmon",
+  "WP8WindowsPublisherName": "CN=MWehrle",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}

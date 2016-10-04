@@ -1,0 +1,70 @@
+{
+  "type": "kendo-ui-mobile",
+  "views": [
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "home",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:form",
+          "components": [
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "textField1",
+              "title": "id",
+              "inputType": "text",
+              "titlePosition": "left",
+              "placeholder": "Type here ..."
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "textField2",
+              "title": "FName",
+              "inputType": "text",
+              "titlePosition": "left",
+              "placeholder": "Type here ..."
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "textField3",
+              "title": "Name",
+              "inputType": "text",
+              "titlePosition": "left",
+              "placeholder": "Type here ..."
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "textField4",
+              "title": "Dept",
+              "inputType": "text",
+              "titlePosition": "left",
+              "placeholder": "Type here ..."
+            }
+          ],
+          "name": "homeModel",
+          "submitButton": "Confirm",
+          "cancelButton": "Cancel"
+        }
+      ],
+      "title": "Home View",
+      "addToNavigation": true,
+      "icon": "home"
+    }
+  ],
+  "dataProviders": [
+    {
+      "type": "kendo-ui-mobile:dataProvider",
+      "name": "jsonDataProvider",
+      "title": "JSON Data Service",
+      "source": "json",
+      "url": "http://localhost:8091/ingress"
+    }
+  ],
+  "name": "kendoUiMobileApp",
+  "navigation": "listmenu",
+  "transition": "slide",
+  "skin": "nova",
+  "skinMainColor": "#32364c",
+  "skinTextColor": "#ffffff",
+  "skinAccentColor": "#ff4350"
+}

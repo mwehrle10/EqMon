@@ -1,0 +1,91 @@
+{
+  "myRoot": {
+    "row": [
+      {
+        "API": [
+          "USGS"
+        ],
+        "Title": [
+          "M 4.9 - 124km WNW of Havelu, Tonga"
+        ],
+        "Updated": [
+          "2016-07-02T19:09:02"
+        ],
+        "GeorssPoint": [
+          "-20.7964 -176.3577"
+        ],
+        "GeorssElev": [
+          "-166200"
+        ]
+      },
+      {
+        "API": [
+          "USGS"
+        ],
+        "Title": [
+          "M 4.4 - Kepulauan Barat Daya, Indonesia"
+        ],
+        "Updated": [
+          "2016-07-02T18:53:03"
+        ],
+        "GeorssPoint": [
+          "-7.9063 128.3229"
+        ],
+        "GeorssElev": [
+          "-92010"
+        ]
+      },
+      {
+        "API": [
+          "USGS"
+        ],
+        "Title": [
+          "M 3.6 - 43km WNW of Green River, Wyoming"
+        ],
+        "Updated": [
+          "2016-07-02T17:20:26"
+        ],
+        "GeorssPoint": [
+          "41.6805 -109.9428329"
+        ],
+        "GeorssElev": [
+          "2800"
+        ]
+      },
+      {
+        "API": [
+          "USGS"
+        ],
+        "Title": [
+          "M 3.6 - 43km WNW of Green River, Wyoming"
+        ],
+        "Updated": [
+          "2016-07-02T17:18:56"
+        ],
+        "GeorssPoint": [
+          "41.6805 -109.9428329"
+        ],
+        "GeorssElev": [
+          "2800"
+        ]
+      },
+      {
+        "API": [
+          "USGS"
+        ],
+        "Title": [
+          "M 4.2 - 78km WNW of San Antonio de los Cobres, Argentina"
+        ],
+        "Updated": [
+          "2016-07-02T16:49:50"
+        ],
+        "GeorssPoint": [
+          "-24.0728 -67.075"
+        ],
+        "GeorssElev": [
+          "-193630"
+        ]
+      }
+    ]
+  }
+}

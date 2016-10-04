@@ -1,0 +1,15 @@
+<div data-role="view" data-title="Most Current Events" data-layout="main" data-model="app.home" data-show="app.home.onShow" data-after-show="app.home.afterShow" data-bind>
+    <div id="homeModel" class="form-view">
+        <form>
+            <ul id="eqListView" class="form-content" data-role="listview" data-style="inset"></ul>
+        </form>
+        <script id="listBoxTemplate" type="text/x-kendo-template">
+         # if(app.opSystem === "ios") { #
+              <a href="maps://?q=#=GeorssPoint[0]#" data-rel="external">#: Title[0] #</a><br>#= Updated[0]#
+         # }
+         else {#
+              <a href="geo://?q=#=GeorssPoint[0]#" data-rel="external">#: Title[0] #</a><br>#= Updated[0]#
+         #} #
+    </script>
+    </div>
+</div>

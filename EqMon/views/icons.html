@@ -1,0 +1,66 @@
+<div id="mapView" data-role="view" data-title="Map!" data-layout="main" data-model="app.map" data-show="app.map.onShow" data-after-show="app.map.afterShow" data-bind>
+<style>
+    .km-arrow-e:after,
+    .km-arrow-e:before
+    {
+        content: "\e000";
+    }
+    .km-soda-e:after,
+    .km-soda-e:before
+    {
+        content: "\e0d3";
+    }
+</style>
+    <div id="mapModel" class="form-view">
+        <form>
+         <ul id="navigation-container" data-role="listview" data-style="inset">
+              <li><p class="km-state-active"><span class="km-icon km-action"></span>Map It!</p><br>
+              <a data-bind="events: { click: goToIndexPage }" data-icon="action"><span class="km-icon km-action"></span>Home View</a><span class="km-icon km-arrow-e"></span>
+              <span class="km-icon km-soda-e"></span>
+              </li>
+          </ul>
+        </form>
+    </div>
+
+
+<div id="example">
+    
+    <div id="map"></div>
+    
+    <script>
+        function createMap() {
+            $("#map").kendoMap({
+                center: [30.268107, -97.744821],
+                zoom: 8,
+                layers: [{
+                    type: "tile",
+                    urlTemplate: "http://#= subdomain #.tile.openstreetmap.org/#= zoom #/#= x #/#= y #.png",
+                    subdomains: ["a", "b", "c"],
+                    attribution: "&copy; <a href='http://osm.org/copyright'>OpenStreetMap contributors</a>"
+                }],
+                markers: [{
+                    location: [30.268107, -97.744821],
+                    shape: "pinTarget",
+                    tooltip: {
+                        content: "Austin, TX"
+                    }
+                }]
+        });
+    }
+
+    $(document).ready(createMap);
+    </script>
+    
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
